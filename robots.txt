@@ -1,0 +1,7 @@
+User-agent: *
+
+*Disallow: /
+Disallow: /google*
+
+*Sitemap: https://scantrigger.com/sitemap.xml
+Host: scantrigger.com

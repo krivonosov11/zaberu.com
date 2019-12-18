@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/public/font/open-sans/OpenSans-Regular.ttf');
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background: #f5f5f5;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #6c390c;
+}
+
+body, html {
+    font-size: 14px;
+
+}
+
+body {
+    font-family: 'OpenSans-Regular', Arial, sans-serif;
+    overflow: scroll;
+}
+
+header {
+    height: 65px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+header .header {
+    height: 100%;
+}
+
+header .header .logo-block {
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+header .header .logo-block img {
+    height: 100%;
+}
+
+header .header .menu-block {
+    margin-top: 12px;
+    float: right;
+}
+
+header .header .menu-block .item-menu {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+header .header .menu-block .item-menu a {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0px 3px;
+    vertical-align: bottom;
+}
+
+.blue-back {
+    background-color: #4fa4e1;
+    color: white;
+}
+
+.gray-back {
+    background-color: #f2f2f2f5;
+}
+
+.btn {
+    padding: 4px 25px 4px 25px;
+    border-radius: 25px;
+}
+
+a {
+    color: #313131;
+    font-weight: 100;
+}
+
+header .header .menu-block .item-menu .add-new-ad {
+    background-color: #ff8500;
+    color: white;
+}
+
+main {
+}
+
+.content .header {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
