@@ -19,7 +19,7 @@ abstract class Controller
     public $layout = 'main';
     public $vars = [];
     public $ajax_method = false;
-    public $title = 'Грузовые перевозки';
+    public $title = 'Пассажирские перевозки';
     private $model_name;
 
     /**

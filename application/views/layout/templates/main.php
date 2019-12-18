@@ -35,7 +35,5 @@ $useCookie = BRequest::getVarCookie('useCookie', 0);
 ?>
 
 
-<?= Declaration::$ExternalScriptToBody ?>
-<?= Declaration::$ExternalStyle ?>
 </body>
 </html>
