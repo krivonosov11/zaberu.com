@@ -1,5 +1,4 @@
 <?php
-$message = core\Message::displayMessage();
 $user_info = core\User::getUserInfo();
 $version = 19;
 

@@ -1,0 +1,121 @@
+.reviews {
+    padding: 50px 0px 50px 50px;
+}
+
+.reviews .empty-block .item-data:first-child {
+    width: auto;
+    text-align: left;
+}
+
+.reviews .empty-block .item-data:last-child {
+    width: 70%;
+    border-right: 4px solid #1B60C0;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.reviews .empty-block .item-data {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reviews .empty-block .item-data img {
+    width: 50px;
+}
+
+.reviews .empty-block h1 {
+    border-bottom: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.quotes {
+    font-size: 48px;
+    color: #a9a8a840;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.reviews .navigation i {
+    background-color: #e9e9e9;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 13px;
+}
+
+.reviews .form-review {
+    background-color: #e9e9e9;
+    padding: 10px 15px;
+}
+
+.reviews .form-review form {
+    background-color: white;
+    padding: 10px;
+}
+
+.reviews .form-review form input, .reviews .form-review form textarea {
+    width: 100%;
+    padding: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+}
+
+.reviews .form-review form textarea {
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.reviews .form-review form input[type=submit] {
+    width: 150px;
+    background: #FFFFFF;
+    border: 1px solid #1B60C0;
+    color: #1B60C0;
+    transition: 0.35s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.reviews .form-review form input[type=submit]:hover {
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .reviews {
+        padding: 25px 0px 25px 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .empty-block {
+        display: block !important;
+        width: 97% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: right;
+    }
+
+    .reviews .empty-block .item-data:first-child {
+        display: none;
+    }
+
+    .reviews .info-text, .reviews .form-review {
+        width: 45% !important;
+        margin: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .reviews .item-info {
+        width: 90% !important;
+        display: block;
+        margin: auto;
+    }
+    .reviews{
+        padding: 5px;
+    }
+}

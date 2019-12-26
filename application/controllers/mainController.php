@@ -9,6 +9,7 @@
 namespace application\controllers;
 
 use application\models\Main;
+use core\mvc\View;
 
 /**
  * Description of authController
@@ -27,7 +28,8 @@ class MainController extends \core\mvc\Controller
 
     public function index()
     {
-
+        $reviewsView = View::getView('review/index');
+        $this->set(compact('reviewsView'));
     }
 
     public function getListCitys()

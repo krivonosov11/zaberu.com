@@ -8,11 +8,11 @@
                 style="font-size: 15px" class="fas fa-times"></i>
         </div>
         <li class="logo"><a href="/"><img src="/public/images/logo.svg" alt="Agrokeys"></a></li>
-        <li class="phone"><a style="text-decoration: none" href="tel:+380978713006">+38 097 871 30 06</a></li>
+        <li class="phone"><i class="fas fa-phone-volume"></i>&nbsp;<a style="text-decoration: none" href="tel:+380978713006">+38 097 871 30 06</a></li>
 
-        <li class="item-"><a href="/production"><span><?= Lang::_('REVIEWS') ?></span></a></li>
+        <li class="item-"><a href="/review"><span><?= Lang::_('REVIEWS') ?></span></a></li>
         <li><a href="/about"><span><?= Lang::_('ABOUT') ?></span></a></li>
-        <li><a href="/contacts"><span><?= Lang::_('TRANSPORT') ?></span></a></li>
+        <li><a href="/transport"><span><?= Lang::_('TRANSPORT') ?></span></a></li>
         <li><a href="/contacts"><span><?= Lang::_('CONTACTS') ?></span></a></li>
     </ul>
     <div class="mobile-burger">
