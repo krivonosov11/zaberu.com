@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
 
 <div class="main-content">
     <div class="item-info text-info">
@@ -112,3 +113,4 @@
     </div>
 </div>
 <?= $reviewsView ?>
+<?= $aboutView ?>

@@ -32,6 +32,14 @@ $langs = [
     'YOUR_REVIEW' => 'Ваш отзыв',
     'MAKE_REVIEW' => 'Оставить отзыв',
     'SEND' => 'Отправить',
+    'CLOSE' => 'Закрыть',
+    'ABOUT_US' => 'О нас',
+    'OUR_ADVANTAGES' => 'Наши преимущества',
+    'PASSENGER_TRANSPORT' => 'Перевезённый пассажира',
+    'DELIVERED_PACKAGES' => 'Доставленных посылок',
+    'WHY_WE' => 'Почему именно мы',
+    'TIME_WORK' => 'Часы работы',
+    'PHONE_AND_MAIL' => 'Телефон и почта',
 ];
 return $langs;
 

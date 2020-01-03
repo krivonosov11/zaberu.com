@@ -15,6 +15,7 @@
 <meta property="og:image:height" content="504">
 
 <?php Declaration::addScript('jquery-3.1.1.min', 'head'); ?>
+<?php Declaration::addScript('main', 'head'); ?>
 <?= Declaration::$ExternalStyle ?>
 <?= Declaration::$ExternalTagToHead ?>
 

@@ -1,5 +1,6 @@
 .reviews {
     padding: 50px 0px 50px 50px;
+    display: flex;
 }
 
 .reviews .empty-block .item-data:first-child {
@@ -91,6 +92,10 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .reviews {
+        display: block;
+    }
+
     .empty-block {
         display: block !important;
         width: 97% !important;
@@ -104,8 +109,9 @@
     }
 
     .reviews .info-text, .reviews .form-review {
-        width: 45% !important;
-        margin: 5px !important;
+        width: 45%;
+        margin: 5px;
+        display: inline-block;
     }
 }
 
@@ -115,7 +121,8 @@
         display: block;
         margin: auto;
     }
-    .reviews{
+
+    .reviews {
         padding: 5px;
     }
 }

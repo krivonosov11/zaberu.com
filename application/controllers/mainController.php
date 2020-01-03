@@ -29,7 +29,8 @@ class MainController extends \core\mvc\Controller
     public function index()
     {
         $reviewsView = View::getView('review/index');
-        $this->set(compact('reviewsView'));
+        $aboutView = View::getView('about/index');
+        $this->set(compact('reviewsView', 'aboutView'));
     }
 
     public function getListCitys()

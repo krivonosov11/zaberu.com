@@ -1,16 +1,12 @@
 <?php
 $user_info = core\User::getUserInfo();
-$version = 19;
-
-$useCookie = BRequest::getVarCookie('useCookie', 0);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <?php Declaration::addStyle('main'); ?>
-    <?php Declaration::addScript('main'); ?>
     <?php echo \core\mvc\View::getView('/layout/templates/general/head'); ?>
-    <title><?=$this->title?></title>
+    <title><?= $this->title ?></title>
     <script type="text/javascript">
         var languages_consts = <?php echo json_encode(Lang::getTranslationLines()); ?>;
     </script>
@@ -18,7 +14,7 @@ $useCookie = BRequest::getVarCookie('useCookie', 0);
 <body>
 <header>
     <?php
-    \core\Modules::setVar('user_info', $user_info);
+    \core\Modules::setVar('action', $this->route['controller']);
     echo core\Modules::getModule('header_menu');
     ?>
 </header>
@@ -29,10 +25,11 @@ $useCookie = BRequest::getVarCookie('useCookie', 0);
     ?>
 </main>
 
-<?php
-
-?>
-
+<footer>
+    <?php
+    echo core\Modules::getModule('footer');
+    ?>
+</footer>
 
 </body>
 </html>

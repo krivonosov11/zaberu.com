@@ -5,6 +5,7 @@ namespace application\controllers;
 
 
 use core\mvc\Controller;
+use core\mvc\View;
 
 class AboutController extends Controller
 {
@@ -15,7 +16,8 @@ class AboutController extends Controller
 
     public function index()
     {
-
+        $second_part = View::getView('/about/second_part', []);
+        $this->set(compact('second_part'));
     }
 
 }

@@ -1,0 +1,159 @@
+.about-block {
+    background-image: url("/public/images/Back-about_us.png");
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+}
+
+.about-block .about-text {
+    background-color: white;
+    margin-left: 100px;
+    width: 350px;
+    padding: 25px;
+    position: absolute;
+    top: 100px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.about-block .about-text h3 {
+    text-align: right;
+    border-right: 3px solid orange;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.about-block .about-text h3 span {
+    font-size: 16px;
+    text-transform: initial;
+}
+
+.about-block .about-text p {
+    line-height: 30px;
+}
+
+.about-block .black-block {
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.about-block .black-block .item-text {
+    text-align: center;
+    display: inline-block;
+    margin: 5px 25px;
+}
+
+.about-block .black-block .item-text i {
+    font-size: 48px;
+    color: white;
+    font-weight: bolder;
+}
+
+.about-block .black-block .item-text span {
+    color: orange;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.about-block .black-block .item-text b {
+    font-size: 20px;
+    color: white;
+    display: block;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.second-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-block .image img {
+    max-height: 600px;
+    width: 100%;
+}
+
+.second-block .image, .second-block .text {
+    width: 50%;
+    padding: 10px 50px;
+}
+
+.second-block .text {
+    border-left: 3px solid orange;
+}
+
+.second-block .text h3 {
+    font-weight: 100;
+    font-size: 32px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.second-block .text p {
+    line-height: 35px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .about-block .about-text {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .second-block {
+        display: block;
+    }
+
+    .second-block .image, .second-block .text {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .second-block .image img {
+        max-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-block {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .about-block .about-text {
+        position: inherit;
+        width: 90%;
+        display: block;
+        margin: auto;
+        top: 25px;
+    }
+
+    .second-block .image, .second-block .text {
+        padding: 10px;
+    }
+
+    .about-block .black-block {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-block .black-block {
+        position: inherit;
+        top: 25px;
+    }
+
+    .about-block {
+        min-height: auto;
+        padding-bottom: 10px;
+    }
+
+    .about-block .about-text {
+        width: 80%;
+    }
+}
